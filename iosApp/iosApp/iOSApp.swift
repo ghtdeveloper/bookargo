@@ -1,10 +1,12 @@
 import SwiftUI
+import WebKit
 
 @main
-struct iOSApp: App {
-	var body: some Scene {
-		WindowGroup {
-			ContentView()
-		}
-	}
+struct BookargoApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
 }
+
