@@ -13,7 +13,7 @@ fun WebViewComponent() {
     AndroidView(
         factory = { context ->
             WebView(context).apply {
-                loadUrl("https://www.bookargo.com/")
+                loadUrl("https://app.bookargo.com/users/sign_in")
                 settings.javaScriptEnabled = true
             }
         },

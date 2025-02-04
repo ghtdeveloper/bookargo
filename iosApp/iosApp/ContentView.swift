@@ -6,7 +6,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            WebView(url: URL(string: "https://www.bookargo.com/")!, webView: $webViewModel.webView)
+            WebView(url: URL(string: "https://app.bookargo.com/users/sign_in")!, webView: $webViewModel.webView)
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button(action: {
